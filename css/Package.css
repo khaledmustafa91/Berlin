@@ -1,0 +1,200 @@
+*
+{
+        font-family: 'Lato', Calibri, Arial, sans-serif;
+      ;
+}
+
+.image
+{
+	background-image: url(../img/Home/4.jpg);
+	
+	background-color: black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 587px;
+	
+}
+.content {
+    top: 495px;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+hr
+{
+    margin-top: 35px;
+    margin-bottom: 0;
+    margin-right: 500px;
+    border-top: 2px solid #02b3e4;
+    width: 345px;
+}
+
+/* Package */
+
+.pragPackage
+{
+    margin-left: 20px;
+}
+.pragPackage p
+{
+    margin: 0 4px 30px;
+    color: #595a5e;
+    text-align: left;
+}
+.theworld
+{
+     background: rgba(0, 0, 0, 0) url("../img/Global/theworld.png") repeat-x scroll center bottom;
+     height: 200px;
+     -webkit-animation: 150s steps(2000, end) 0s normal none infinite running loader;
+     animation: 70s steps(2000, end) 1s normal none infinite running loader ;
+      -webkit-animation-direction: reverse;
+}
+a
+{
+	text-decoration: none !important;
+}
+/* Panal */ 
+.panel-group .panel
+{
+
+    margin-left: 23px;
+    width: 371px;
+}
+.panel-default
+{
+	margin-left: 40px;
+    width: 371px;
+}
+.panel-default>.panel-heading {
+    color: #2c3f52;
+    background-color: #b3b9bf;
+    border-color: #ddd;
+}
+
+/* Test */
+.content p {
+ /* animation-duration: 6s;
+  animation-name: slidein;*/
+  text-align: center;
+  font-size: 75px;
+  margin-top: -365px;
+}
+.pos
+{
+  /*animation-duration: 2s;
+  animation-name: Germany !important;*/
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0 !important;
+
+}
+.panel-heading
+{
+  background-color: #b3b9bf;
+  color: black;
+}
+.test
+{
+  text-align: center;
+    padding: 5px 10px;
+    border-radius: 2px;
+    display: inline-block;
+    background: #02b3e4;
+    color: #fff;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes Germany {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left:  0%;
+    width: 100%;
+  }
+}
+
+@media (min-width:400px)
+{
+    hr
+    {
+        margin-right: 200px;
+    }
+    iframe
+    {
+        width: 395px;
+        margin-left: -72px;
+    }
+    .panel-default {
+            margin-left: 26px;
+    width: 281px;
+    }
+}
+
+@media (min-width:900px)
+{
+    hr
+    {
+        margin-right: 315px;
+    }
+
+    .panel-default {
+        margin-left: 37px;
+    }
+    iframe {
+        width: 645px;
+        margin-left: 95px;
+    }
+}
+
+@media (min-width:580px)
+{
+    .panel-default {
+      margin-left: 195px;
+      width: 350px;
+      }
+iframe
+     {
+    width: 645px;
+    margin-left: 25px;
+    }
+}
+
+@media (min-width: 1000px)
+{
+    .panel-default
+    {
+        margin-left: 26px;
+        width: 375px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .panel-default
+    {
+        margin-left: 26px;
+        width: 360px;
+    }
+    hr
+    {
+         margin-top: 25px;
+        margin-bottom: 0;
+        margin-right: 509px;
+    }
+    iframe
+    {
+        width: 615px;
+        margin-left: 25px;
+    }
+}

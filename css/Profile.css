@@ -1,0 +1,229 @@
+
+.pro
+{
+	margin-top: 75px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.user
+{
+	width: 250px;
+}
+.move
+{
+	margin-left: 0;
+	margin-top: 0;
+	width: 250px;
+}
+
+.Fixed
+{
+	width: 520px;
+}
+.Buttons
+{
+	color: white;
+	background-color: #02b3e4;
+    border-color: #02b3e4;
+    border-radius: 5px;
+   
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    padding: 8px 20px;
+    margin-top: 15px;
+    margin-left: 405px;
+}
+.prag
+{
+	margin-left: 195px;
+    margin-bottom: -4px;
+    color: black;
+    /*color: #afafaf;*/
+
+}
+
+/* Images */
+.image
+{	
+	margin-top: -45px;
+    background-image: url(../img/sign/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin-right: 90px;
+}
+/* Profile information */ 
+
+.word
+{
+    margin-top: -25px; margin-left: 35px;
+    font-size: 22px;
+}
+/* Input */ 
+
+.input-group .FixedSize
+{
+    width: 30% !important; 
+}
+.input-group .form-control
+{
+    width: 45%;
+}
+
+/* hr */
+
+hr
+{
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-right: 342px;
+    border-top: 2px solid #02b3e4;
+    width: 345px;
+}
+
+/* Package Section */ 
+
+.Package h2
+{
+    margin-left: 100px;
+    color: black;
+}
+.Package hr
+{
+    margin-right: 448px;
+    margin-top: 18px;
+}
+.pragPackage
+{
+    margin-left: 20px;
+}
+.pragPackage p
+{
+    margin: 0 4px 30px;
+    color: #595a5e;
+    text-align: left;
+}
+/* Panal */ 
+.panel-group .panel
+{
+
+    margin-left: 23px;
+    width: 371px;
+}
+.panel-default
+{
+    margin-left: 23px;
+    width: 371px;
+}
+.panel-default>.panel-heading {
+    color: #2c3f52;
+    background-color: #b3b9bf;
+    border-color: #ddd;
+}
+a
+{
+    text-decoration: none !important;
+}
+
+
+.pos
+{
+    margin-left: 210px;
+}
+/* Test */
+.figure
+{
+    height: 285px !important;
+}
+@media (max-width: 375px)
+{
+    hr
+    {
+        width: 310px;
+        margin-right: 6px !important;
+    }
+    .prag
+    {
+        margin-left: 30px !important;
+    }
+    .Package hr
+    {
+        margin-right: 20px !important;
+    }
+}
+@media (max-width: 519px)
+{
+    .prag
+    {
+        margin-left: 46px;
+    }
+    hr
+    {
+        margin-right: 21px;
+    }
+    .Package h2
+    {
+        margin-left: 0;
+    }
+    .image
+    {
+        margin-left: 100px !important;
+    }
+    .Package hr
+    {
+        margin-right: 32px;
+    }
+    .input-group .form-control
+    {
+        width: 95%;
+    }
+}
+@media (max-width: 768px)
+{
+    hr
+    {
+        margin-right: 214px;
+    }
+    .Package hr
+    {
+        margin-right: 228px !important;
+
+    }
+    .Package h2 {
+        margin-left: -50px;
+    }
+    .image
+    {
+        margin-left: 175px;
+    }
+}
+@media (max-width: 1024px)
+{
+    .prag
+    {
+        margin-left: 0;
+        text-align: center;
+    }
+    hr
+    {
+        margin-right: 303px;
+    }
+    .Package h2
+    {
+        margin-left: 0;
+
+    }
+    .Package hr
+    {
+        margin-right: 337px;
+    }
+    .image
+    {
+        margin-left: 277px;
+    }
+}
